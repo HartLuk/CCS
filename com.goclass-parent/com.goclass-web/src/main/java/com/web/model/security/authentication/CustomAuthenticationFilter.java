@@ -1,4 +1,4 @@
-package com.web.model.security;
+package com.web.model.security.authentication;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.MediaType;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

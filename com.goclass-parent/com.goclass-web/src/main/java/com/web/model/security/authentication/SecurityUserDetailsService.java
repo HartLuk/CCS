@@ -1,4 +1,4 @@
-package com.web.model.security;
+package com.web.model.security.authentication;
 
 
 import org.springframework.beans.factory.annotation.Autowired;

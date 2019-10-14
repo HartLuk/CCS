@@ -28,7 +28,7 @@ import com.web.common.utils.Md5Util;
 import com.web.common.utils.jwt.JwtUtils;
 import com.web.common.utils.jwt.UserToken;
 import com.web.model.business.user.service.UserService;
-import com.web.model.security.SecurityUserInfo;
+import com.web.model.security.authentication.SecurityUserInfo;
 
 @Service
 public class UserServiceImpl implements UserService{

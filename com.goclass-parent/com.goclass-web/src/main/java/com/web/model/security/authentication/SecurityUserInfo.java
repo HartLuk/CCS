@@ -1,4 +1,4 @@
-package com.web.model.security;
+package com.web.model.security.authentication;
 
 import java.io.Serializable;
 import java.util.Collection;
