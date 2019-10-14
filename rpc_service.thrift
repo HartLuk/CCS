@@ -28,6 +28,14 @@ struct StageTwoResultOfClassStrategy{
     4:list<list<i32>>   walkingclassHPClassNumber   //2*3   历史/物理   班级数
     5:list<i32>   minClassNumber  //2   对应的最少班级数
 }
+struct StageThreeResultOfClassStrategy{
+    1:list<list<list<map<i16,i16>>>>    adminclassSolution  //3*2*n 组数*种类数*班级数*{科目组合:人数} 行政班初步结果，分成两种行政班
+    2:list<list<double>>   walkingclassStudentAverageNumber  //4*6  组数*科目数*（人数） 每组的每个科目教学班的平均人数
+    3:list<i16>    isHPMix //每一组是不是物理历史混合的
+    4:list<list<i16>>   walkingClassNumber  //4*6   组数*科目数*（班级数）  
+    5:list<i16> subjectList //对应的科目
+    6:list<list<map<i16,i16>>>    adminclassTransformSolution //4*n 组数*班级数*{科目组合：人数}    将第一类的行政班拿出来组成第四组
+}
 
 struct ClassStrategyRule{
     2:map<i16,i32> subjectTeacherNumber //科目组合对应的老师数量
@@ -41,6 +49,7 @@ struct  ClassStrategyModifyResult{
     2:i32   stage   //需要修改的阶段
     5:StageOneResultOfClassStrategy StageOneResultOfClassStrategy   //第一阶段所要修改的结果.....
     6:StageTwoResultOfClassStrategy StageTwoResultOfClassStrategy
+    7:StageThreeResultOfClassStrategy StageThreeResultOfClassStrategy
 }
 
 struct ResultOfClassStrategyCreateTask{
@@ -71,6 +80,7 @@ struct ResultOfClassStrategyGetTaskResult{
     4:i32   stage
     5:StageOneResultOfClassStrategy StageOneResultOfClassStrategy
     6:StageTwoResultOfClassStrategy StageTwoResultOfClassStrategy
+    7:StageThreeResultOfClassStrategy StageThreeResultOfClassStrategy
 }
 struct ResultOfClassStrategyModifyTaskResult{
     1:i32   statusCode
