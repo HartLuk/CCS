@@ -2,6 +2,7 @@
 新高考走班排课系统
 
 目录结构说明：
+<pre>
 com.goclass-parent</br>
   -com.goclass-mapper   #orm映射文件</br>
   -com.goclass-pojo     #实体</br>
@@ -24,3 +25,4 @@ com.goclass-parent</br>
         -authentication     #自定义认证服务</br>
         -config             #配置</br>
         -filter             #token过滤器</br>
+</pre>
