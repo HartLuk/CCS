@@ -1,6 +1,15 @@
 # CCS
 新高考走班排课系统
 
+开发系统环境：
+<pre>
+  jdk:1.8
+  tomcat:7
+  springboot:2.1.0
+  mysql:5.7，远程数据库地址lede.dalaomai.cn，端口5006
+  redis:5.0.6
+</pre>
+
 目录结构说明：
 <pre>
 com.goclass-parent</br>
