@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.goclass.result.LoginResult;
-import com.web.model.security.AuthenticationBean;
+import com.web.model.security.authentication.AuthenticationBean;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

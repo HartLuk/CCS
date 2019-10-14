@@ -1,4 +1,4 @@
-package com.web.model.security;
+package com.web.model.security.authentication;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;

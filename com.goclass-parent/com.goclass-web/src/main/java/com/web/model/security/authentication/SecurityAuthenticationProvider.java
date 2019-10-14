@@ -1,4 +1,4 @@
-package com.web.model.security;
+package com.web.model.security.authentication;
 
 import java.util.ArrayList;
 import java.util.List;

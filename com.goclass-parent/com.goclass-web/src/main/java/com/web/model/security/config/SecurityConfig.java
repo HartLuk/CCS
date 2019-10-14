@@ -38,8 +38,8 @@ import com.goclass.result.CommonResult;
 import com.goclass.result.LoginResult;
 import com.web.common.config.redis.RedisConstant;
 import com.web.common.utils.JwtHelper;
-import com.web.model.security.CustomAuthenticationFilter;
-import com.web.model.security.SecurityUserInfo;
+import com.web.model.security.authentication.CustomAuthenticationFilter;
+import com.web.model.security.authentication.SecurityUserInfo;
 import com.web.model.security.filter.JwtAuthenticationTokenFilter;
 
 @EnableWebSecurity // 激活WebSecurityConfiguration配置类

@@ -22,7 +22,7 @@ import com.goclass.result.CommonResult;
 import com.web.common.config.redis.RedisConstant;
 import com.web.common.utils.JwtHelper;
 import com.web.common.utils.SpringUtils;
-import com.web.model.security.SecurityUserInfo;
+import com.web.model.security.authentication.SecurityUserInfo;
 
 import io.jsonwebtoken.Claims;
 
