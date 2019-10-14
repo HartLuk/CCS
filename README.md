@@ -2,12 +2,12 @@
 新高考走班排课系统
 
 目录结构说明：
-com.goclass-parent
-  -com.goclass-mapper   #orm映射文件
-  -com.goclass-pojo     #实体
-  -com.goclass-web      #WebService
-    -com.web
-      -GoClassApp.java  #App启动类
+com.goclass-parent</br>
+  -com.goclass-mapper   #orm映射文件</br>
+  -com.goclass-pojo     #实体</br>
+  -com.goclass-web      #WebService</br>
+    -com.web</br>
+      -GoClassApp.java  #App启动类</br>
     -com.web.common     #公共类
       -config             #配置
       -utils              #工具
